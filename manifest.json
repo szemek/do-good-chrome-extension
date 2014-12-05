@@ -1,0 +1,27 @@
+{
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon-16.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "description": "DoGood is a global list of good deeds. Helps people to inspire themselves and spread good.",
+  "icons": {
+    "128": "icon-128.png",
+    "16": "icon-16.png",
+    "48": "icon-48.png"
+  },
+  "permissions": [
+    "alarms",
+    "tabs",
+    "webNavigation",
+    "*://dogood.to/",
+    "*://*.dogood.to/"
+  ],
+  "manifest_version": 2,
+  "name": "DoGood",
+  "offline_enabled": false,
+  "version": "0.1"
+}
